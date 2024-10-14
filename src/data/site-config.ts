@@ -70,13 +70,13 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    heroTitle: "<span class='name'>Mikan</span>'s Home",
-    title: "Mikan's Home",
+    heroTitle: "<span class='name'>Suikol</span>'s Home",
+    title: "Suikol's Home",
     avatar: {
         src: "/assets/avatar.jpg",
         alt: "Avatar"
     },
-    author: "Mikan",
+    author: "Suikol",
     subtitle: "彩笔懒狗一个",
     description: '彩笔懒狗一个',
     // image: {
@@ -128,10 +128,10 @@ const siteConfig: SiteConfig = {
         // }
     ],
     socialLinks: [
-        {
-            text: 'Instagram',
-            href: 'https://www.instagram.com/aaki_ig?igsh=bjA4M3RncHp3Njhz'
-        },
+        //{
+        //    text: 'Instagram',
+        //    href: 'https://www.instagram.com/aaki_ig?igsh=bjA4M3RncHp3Njhz'
+        //},
         {
             text: 'X/Twitter',
             href: 'https://twitter.com/mikan_chn'
