@@ -114,10 +114,10 @@ const siteConfig: SiteConfig = {
             text: 'Contact',
             href: '/contact'
         },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
+        //{
+        //    text: 'Terms',
+        //    href: '/terms'
+        //},
         {
             text: 'RSS Feed',
             href: '/rss.xml'
@@ -134,11 +134,11 @@ const siteConfig: SiteConfig = {
         //},
         {
             text: 'X/Twitter',
-            href: 'https://twitter.com/mikan_chn'
+            href: 'https://twitter.com/HeJi1698'
         },
         {
             text: 'GitHub',
-            href: 'https://github.com/mitian233'
+            href: 'https://github.com/gouhexieji'
         }
     ],
     personalizedHero: true,
