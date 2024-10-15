@@ -1,16 +1,9 @@
----
-import siteConfig from '../data/site-config';
-
-const socialLinks = siteConfig.socialLinks || [];
-const navLinks = siteConfig.footerNavLinks || [];
----
-
 <footer class="w-full max-w-3xl mx-auto pt-12 pb-10 sm:pt-24 sm:pb-14">
     {
         navLinks.length > 0 && (
             <div class="mb-4 flex flex-wrap gap-x-6 gap-y-1">
                 {navLinks.map((link) => (
-                    <a class="font-sans hover:underline hover:underline-offset-2" href={link.href}>
+                    <a class="font-sans hover:underline hover:underline-offset-2" href={link.href} key={link.href}>
                         {link.text}
                     </a>
                 ))}
@@ -26,7 +19,8 @@ const navLinks = siteConfig.footerNavLinks || [];
                             class="inline-flex items-center justify-center text-sm hover:underline hover:underline-offset-2"
                             href={link.href}
                             target="_blank"
-                            rel="noopener noreferer"
+                            rel="noopener noreferrer"
+                            key={link.href}
                         >
                             {link.text}
                         </a>
@@ -41,9 +35,12 @@ const navLinks = siteConfig.footerNavLinks || [];
             <p>
                 Powered by <a class="hover:underline hover:underline-offset-2" href="https://astro.build/">Astro</a> | Theme: <a
                     class="hover:underline hover:underline-offset-2"
-                    href="https://github.com/mitian233/astro-theme-akiba">Akiba</a
-                >
+                    href="https://github.com/mitian233/astro-theme-akiba">Akiba</a>
+            </p>
+            <p>
+                <a href="https://icp.gov.moe/?keyword=20241128" target="_blank" class="hover:underline hover:underline-offset-2">萌ICP备20241128号</a>
             </p>
         </div>
     </div>
 </footer>
+
