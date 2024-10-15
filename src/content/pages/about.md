@@ -15,7 +15,7 @@ seo:
 ### 会写一点程序
 好吧，其实只会shell跟一点点html。
 
-GitHub请[按此](https://github.com/suikol)
+GitHub请[按此](https://github.com/gouhexieji)
 
 ## 关于自己在玩的各种社交游戏
 

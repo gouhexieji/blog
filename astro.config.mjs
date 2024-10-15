@@ -19,7 +19,7 @@ import robotsTxt from 'astro-robots-txt';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://blog.bangdream.moe/',
+  site: 'https://suikol.top/',
   integrations: [
     mdx(),
     sitemap(),
@@ -29,7 +29,7 @@ export default defineConfig({
     }),
     robotsTxt({
       sitemap: [
-        'https://blog.bangdream.moe/sitemap-index.xml'
+        'https://suikol.top/sitemap-index.xml'
       ]
     }),
   ],
