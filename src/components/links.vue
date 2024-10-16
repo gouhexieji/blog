@@ -32,8 +32,8 @@ onMounted(() => {
             <p class="text-center">No links available.</p>  <!-- Message when links are cleared -->
         </div>
         <p class="text-xs text-right">📧:
-            <a class="link" href="mailto:gouhexieji@gmail.com">
-                gouhexieji@gmail.com
+            <a class="link" href="mailto:suikol@suikol.top">
+		    suikol@suikol.top
             </a>
         </p>
     </div>

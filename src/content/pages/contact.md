@@ -8,5 +8,5 @@ seo:
 Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
 
 _Email:_
-Feel free to drop me an email at [gouhexieji@gmail.com](mailto:gouhexieji@gmail.com), and I'll do my best to respond as soon as possible.
+Feel free to drop me an email at [suikol@suikol.top](mailto:suikol@suikol.top), and I'll do my best to respond as soon as possible.
 
