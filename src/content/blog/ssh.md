@@ -1,6 +1,7 @@
 ---
 title: ssh快捷登录
 publishDate: '2024-10-15'
+isFeatured: true
 seo:
   title: ssh快捷登录
   description: ssh设置快捷登录
