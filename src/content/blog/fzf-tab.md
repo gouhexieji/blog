@@ -39,7 +39,7 @@ ps:要在zsh-autosuggestions、zsh-syntax-highlighting等插件之前加载fzf-t
 然后重启zsh按下tab试试
 
 fzf-tab的配置采用和zsh自带的补全一样的zstyle
-这里贴一下创建作者的博客里的配置
+这里贴一下插件作者的博客里的配置
 ```
 # kill 结束进程时时提供预览
 zstyle ':completion:*:*:*:*:processes' command "ps -u $USER -o pid,user,comm,cmd -w -w"
